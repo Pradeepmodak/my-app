@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React from "react";
+import "./App.css";
+function App(){
+  return(
+    <>
+    <h1>TIC TAC TOE</h1>
+    <div className="matrix">
+     <Board/>
     </div>
+    </>
   );
 }
 
-export default App;
+function Board(){
+return(
+  <div className="Board">
+    <div>
+    <Block></Block>
+    <Block></Block>
+    <Block></Block>
+    </div>
+    <div>
+    <Block></Block>
+    <Block></Block>
+    <Block></Block>
+    </div>
+    <div>
+    <Block></Block>
+    <Block></Block>
+    <Block></Block>
+    </div>
+
+  </div>
+)
+}
+
+function Block(){
+  return(
+    <div className="Block signX">  
+    </div>
+  )
+}
+export default App; 
