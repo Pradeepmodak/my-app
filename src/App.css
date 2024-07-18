@@ -1,23 +1,56 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.header {
+    padding:4rem 2rem 0;
+    justify-content: center;
+}
+.title {
+  color: #2b303a;
+  font-weight: bold;
+  font-size: 3em;
+}
+.sub-title {
+    color: #2b303a;
+  text-align: start;
+  font-weight: 300;
+  margin: 0 0 2em 1.2em;
+}
+.Block {
+  border: .5px solid black;
+  background-size: cover;
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  cursor: pointer;
+}
+.Block:hover {
+    border: 2px solid black;
+}
 
-.Block{
-    border: 5px solid black;
-    background-size: cover;
-    display: flex;
-}
-.signO{
-background-image: url(—Pngtree—black\ cicle\ ring_5487778.png);
-}
-.signX{
-    background-image: url(freepik-export-20240718021229iomx.png);
-width: 100px;
-height: 100px;
-}
-.Board{
-    /* display: flex; */
-    height: 100px;
-    width: 100px;
-}
-.c1{
-    display: inline;
+.signO {
+  background-image: url("./black_circle.png");
 }
 
+.signX {
+  background-image: url("./yellow_x.png");
+  /* width: 100px;
+  padding-top: 4em;
+  height: 100px; */
+}
+
+.Board {
+    justify-content: center;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.c1 {
+  display: inline;
+}

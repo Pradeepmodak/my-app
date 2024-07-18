@@ -3,7 +3,10 @@ import "./App.css";
 function App(){
   return(
     <>
-    <h1>TIC TAC TOE</h1>
+    <div className="header">
+    <h1 className="title">TIC TAC TOE</h1>
+    <p className="sub-title">By Pradeep Modak</p>
+    </div>
     <div className="matrix">
      <Board/>
     </div>
