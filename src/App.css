@@ -17,7 +17,7 @@ body {
   font-size: 3em;
 }
 .sub-title {
-    color: #2b303a;
+  color: #2b303a;
   text-align: start;
   font-weight: 300;
   margin: 0 0 2em 1.2em;
@@ -34,15 +34,12 @@ body {
     border: 2px solid black;
 }
 
-.signO {
+.sign1 {
   background-image: url("./black_circle.png");
 }
 
-.signX {
+.sign2 {
   background-image: url("./yellow_x.png");
-  /* width: 100px;
-  padding-top: 4em;
-  height: 100px; */
 }
 
 .Board {
